@@ -1,0 +1,32 @@
+dn: uid=ldapuser1,ou=People,dc=example,dc=com
+uid: ldapuser1
+cn: ldapuser1
+sn: ldapuser1
+mail: ldapuser1@tolharadys.net
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+loginShell: /bin/bash
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/guests/ldapuser1
+gecos: ldapuser1
+
+dn: uid=ldapuser2,ou=People,dc=example,dc=com
+uid: ldapuser2
+cn: ldapuser2
+sn: ldapuser2
+mail: ldapuser2@tolharadys.net
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+loginShell: /bin/bash
+uidNumber: 1002
+gidNumber: 1002
+homeDirectory: /home/guests/ldapuser2
+gecos: ldapuser2
+

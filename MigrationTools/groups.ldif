@@ -1,0 +1,12 @@
+dn: cn=ldapuser1,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: posixGroup
+cn: ldapuser1
+gidNumber: 1001
+
+dn: cn=ldapuser2,ou=Groups,dc=example,dc=com
+objectClass: top
+objectClass: posixGroup
+cn: ldapuser2
+gidNumber: 1002
+
