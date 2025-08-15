@@ -1,0 +1,11 @@
+[BaseOS]
+name=BaseOS
+baseurl=http://content.example.com/rhel9/BaseOS
+enabled=1
+gpgcheck=0
+
+[AppStream]
+name=AppStream
+baseurl=http://content.example.com/rhel9/AppStream
+enabled=1
+gpgcheck=0
